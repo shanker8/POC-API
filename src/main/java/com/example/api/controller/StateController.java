@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://4.247.29.41:3000") // Allow CORS for this controller
+@CrossOrigin(origins = "http://20.244.1.229:3000") // Allow CORS for this controller
 public class StateController {
 
     @Autowired
